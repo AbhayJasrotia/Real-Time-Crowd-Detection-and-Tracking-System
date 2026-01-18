@@ -14,7 +14,7 @@ The system detects individuals in crowded scenes, assigns **unique IDs**, tracks
 ## 🎬 Demo
 
 🎥 **Watch Demo Video**  
-Upload `tracked_output.mp4` to **GitHub Releases** and link it here.
+https://youtu.be/AoZ7w4NXbjc?si=bBhFuGt3-G-AUl-y
 
 ### 📊 Sample Results
 - ✅ Frames Processed: **92**
@@ -63,7 +63,6 @@ Annotated Output Video
 
 **Your Name**  
 B.Tech Computer Science Engineering | CDAC DASSD  
-📧 your.email@example.com  
+📧 abhayjasrotia@gmail.com  
 
-🔗 LinkedIn: yourprofile  
-🐙 GitHub: @yourusername
+🔗 LinkedIn: https://www.linkedin.com/in/abhay-jasrotia-907487236/ 
