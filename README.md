@@ -37,12 +37,33 @@ Upload `tracked_output.mp4` to **GitHub Releases** and link it here.
 
 ---
 
-## 📁 Project Structure
-```bash
-crowd-tracking-yolo-sort/
-├── crowd_detector.ipynb      # Main Google Colab notebook
-├── tracker.py                # SORT tracking implementation
-├── requirements.txt          # Python dependencies
-├── tracked_output.mp4        # Sample output video
-├── README.md                 # Project documentation
-└── demo/                     # Demo images/videos
+**##🚀 How It Works**
+Input Video
+    ↓
+YOLOv8 Detection (Person Class)
+    ↓
+Bounding Boxes + Confidence
+    ↓
+SORT Tracking (Kalman + IoU Matching)
+    ↓
+Tracked Objects with Unique IDs
+    ↓
+Annotated Output Video
+
+### 🎯 Tracking Performance
+
+| Metric           | Value               | Notes                  |
+|------------------|---------------------|------------------------|
+| Estimated MOTA   | 65–70%              | SORT baseline          |
+| IDF1 Score       | 60–65%              | No appearance features |
+| ID Switches      | ~2 per person       | Expected               |
+| Optimal Density  | 10–100 people/frame | Best performance range |
+
+## 👨‍💻 Author
+
+**Your Name**  
+B.Tech Computer Science Engineering | CDAC DASSD  
+📧 your.email@example.com  
+
+🔗 LinkedIn: yourprofile  
+🐙 GitHub: @yourusername
